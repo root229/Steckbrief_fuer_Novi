@@ -30,13 +30,15 @@ main {
     text-align: left;
 }
 
+/* 📸 Profilbild als Quadrat */
 .profilbild {
     width: 150px;
     height: 150px;
-    object-fit: cover;
+    object-fit: cover; /* Stellt sicher, dass das Bild richtig skaliert wird */
     margin-bottom: 15px;
 }
 
+/* 💻 Desktop-Ansicht: Bild links, Text rechts */
 @media (min-width: 768px) {
     .steckbrief {
         flex-direction: row;
