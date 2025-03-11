@@ -33,14 +33,10 @@ main {
 .profilbild {
     width: 150px;
     height: 150px;
+    object-fit: cover;
     margin-bottom: 15px;
 }
 
-.steckbrief-text {
-    text-align: left;
-}
-
-/* 💻 Desktop-Ansicht: Bild links, Text rechts */
 @media (min-width: 768px) {
     .steckbrief {
         flex-direction: row;
